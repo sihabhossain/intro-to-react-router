@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import ActiveLink from "../Components/ActiveLink/ActiveLink";
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
       <Link to="/friends">Friends</Link>
       <Link to="/contact">Contact</Link>
       <Link to="/about">About</Link>
+      {/* <ActiveLink to="/friends">Friends</ActiveLink> */}
     </nav>
   );
 };
